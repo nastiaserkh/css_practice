@@ -17,16 +17,12 @@
 }
 
 .person:hover {
-  z-index: 2;
   background-color: #eee;
   border-radius: 10px;
 }
 
 .person:hover .extra {
   visibility: visible;
-}
-
-@keyframes personHover {
 }
 
 .person__photo {
@@ -61,6 +57,14 @@
   padding-bottom: 16px;
 }
 
+.extra__pay:before {
+  content: ", $";
+}
+
+.extra__pay:after {
+  content: "M";
+}
+
 .details {
   text-align: center;
   padding-top: 8px;
@@ -71,13 +75,5 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 700;
-}
-
-.pay:before {
-  content: ", $";
-}
-
-.pay:after {
-  content: "M";
 }
 /*# sourceMappingURL=css_practice.b1276d39.css.map */
