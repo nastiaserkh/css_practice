@@ -58,11 +58,11 @@
 
   &__pay::before {
     content: ', $';
-}
+  }
 
   &__pay::after {
     content: 'M';
-}
+  }
 }
 
 .details {
